@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.myapplication.Main2Activity">
+
+    <Button
+        android:id="@+id/btn_nation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发送广播" />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:visibility="gone" />
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+    </WebView>
+
+    <FrameLayout
+        android:id="@+id/fla"
+        android:layout_width="match_parent"
+        android:background="@color/blue_sky"
+        android:layout_weight="0.6"
+        android:layout_height="0dp">
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_gravity="center"
+            android:src="@drawable/sun"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+    </FrameLayout>
+    <View
+        android:id="@+id/view"
+        android:background="@color/sea"
+        android:layout_width="match_parent"
+        android:layout_weight="0.4"
+        android:layout_height="0dp"/>
+</LinearLayout>
