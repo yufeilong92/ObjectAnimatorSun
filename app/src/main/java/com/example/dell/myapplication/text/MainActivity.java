@@ -1,4 +1,4 @@
-package com.example.dell.myapplication;
+package com.example.dell.myapplication.text;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -6,6 +6,8 @@ import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.dell.myapplication.R;
 
 import java.io.BufferedReader;
 import java.io.IOException;
