@@ -12,7 +12,7 @@ import android.widget.ScrollView;
  * @version V 1.0 xxxxxxxx
  * @Title: MyApplication3
  * @Package com.example.dell.myapplication
- * @Description: $todo$
+ * @Description:scroview 与edittext 冲突
  * @author: YFL
  * @date: 2017/8/14 21:19
  * @verdescript 版本号 修改时间  修改人 修改的概要说明
