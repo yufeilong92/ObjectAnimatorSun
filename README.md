@@ -47,7 +47,7 @@
  调整代码，对onDraw绘制的位置进行微调，这里需要一个有耐心去测试修改代码的人
 <br> 
 
- ##editTEXT 与lines 冲突
+##editTEXT 与lines 冲突
     @Override
      public InputConnection onCreateInputConnection(EditorInfo outAttrs)
      {
