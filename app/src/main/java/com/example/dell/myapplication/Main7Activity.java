@@ -19,7 +19,7 @@ public class Main7Activity extends AppCompatActivity implements View.OnClickList
     private Button mButton8;
     private Button mButton9;
 
-    private static boolean BOne = false;
+    private static  boolean BOne = false;
     private static boolean BTwo = false;
     private static boolean BThree = false;
     private static boolean BFour = false;

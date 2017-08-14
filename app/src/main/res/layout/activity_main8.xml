@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.myapplication.Main8Activity">
+<com.example.dell.myapplication.MyEditText
+    android:layout_width="match_parent"
+    android:lines="4"
+    android:gravity="top"
+    android:inputType="textAutoCorrect|textCapSentences|textMultiLine"
+    android:imeOptions="actionDone"
+    android:layout_height="wrap_content" />
+    <com.example.dell.myapplication.MyEditText
+        android:layout_width="match_parent"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:layout_height="wrap_content" />
+    <com.example.dell.myapplication.MyEditText
+        android:layout_width="match_parent"
+        android:imeOptions="actionDone"
+        android:layout_height="wrap_content" />
+</LinearLayout>
